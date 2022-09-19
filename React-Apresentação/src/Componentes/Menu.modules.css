@@ -1,0 +1,28 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: rgb(56, 52, 52);
+    height:10vh;
+}
+  
+.nav_list {
+    list-style: none;
+    display: flex;
+}
+  
+.nav_list li {
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+#logo{
+    width: 120px;
+}
+

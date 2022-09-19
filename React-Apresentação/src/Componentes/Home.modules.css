@@ -1,0 +1,138 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body .wrapper {
+  font-family: 'Poppins', sans-serif;
+  background:black;
+}
+
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#sidebar {
+  background: black;
+  color: #fafafa;
+  transition: all 0.3s;
+}
+
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  color: #ddd;
+  background: #fff;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+
+#sidebar {
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 80vh;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  font-size: 14px;
+}
+
+.tabela {
+  background-color: rgba(0, 0, 0, 0.801);
+  color: white;
+}
+
+.tabela thead {
+
+  font-size: 18px;
+}
+
+.tabela td {
+
+  padding: 5px;
+
+}
+
+.tabela img {
+  width: 16vw;
+
+}
+
+
+
+.tabela {
+  border-collapse: collapse;
+}
+
+.tabela {
+  text-align: center;
+}
+
+
+.tabela p {
+  padding-top: 10px;
+}
+
+.tabela h3 {
+  background: rgba(0, 0, 0, 0.171);
+  padding: 5px;
+}
+
+
+.tabela th {
+  padding: 5px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Poppins', sans-serif;
+  background: black;
+  height: 10vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  color: white;
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+
+#logo {
+  width: 120px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
